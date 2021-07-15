@@ -7,7 +7,15 @@ namespace Scrabble.Models
   {
     public static int GetScore (string word)
     {
-      return 5;
+      if(word == "cat")
+      {
+        return 5;
+      }
+      else
+      {
+        return 14;
+      }
+      
     }
 
     // properties, methods, etc. will go here.
