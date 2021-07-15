@@ -11,6 +11,12 @@ namespace Scrabble.Tests
     {
       Assert.AreEqual(Score.GetScore("cat"), 5);
     }
+    // f = 4, l = 1, a = 1, m = 3, i = 1, n = 1, g = 2, o = 1
+    [TestMethod]
+    public void GetScore_GetsScoreFromFlamingo_Returns14 ()
+    {
+      Assert.AreEqual(Score.GetScore("flamingo"), 14);
+    }
     // [TestMethod]
     // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
     // {
