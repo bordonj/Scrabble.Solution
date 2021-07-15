@@ -21,7 +21,7 @@ namespace Scrabble.Tests
     // q = 10, u = 1, i = 1, e = 1, t = 1, e = 1, r = 1
     public void GetScore_GetsScoreFromQuiet_Returns16 ()
     {
-      Assert.AreEqual(Score.GetScore("quiet"), 16);
+      Assert.AreEqual(Score.GetScore("quieter"), 16);
     }
     // [TestMethod]
     // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
