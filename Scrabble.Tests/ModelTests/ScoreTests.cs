@@ -7,9 +7,9 @@ namespace Scrabble.Tests
   public class ScrabbleTests
   {
     [TestMethod]
-    public void GetScore_GetsScoreFromLetter_ReturnsOneForA ()
+    public void GetScore_GetsScoreFromCat_Returns5 ()
     {
-      Assert.AreEqual(Score.GetScore("A"), 1);
+      Assert.AreEqual(Score.GetScore("cat"), 5);
     }
     // [TestMethod]
     // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
